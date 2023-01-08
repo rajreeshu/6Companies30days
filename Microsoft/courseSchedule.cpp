@@ -28,9 +28,6 @@ public:
         }
 
         helper(m,s);
-        cout<<s.size();
-        cout<<endl;
-        for(auto it:s) cout<<it<<" ";
         
         if(s.size()==n) return true;
         return false;
